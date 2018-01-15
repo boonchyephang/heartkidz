@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+      OneSignal.init({
+        appId: "32880617-980d-49ff-95f9-b4f5b4b93034",
+        });
+      });
+  </script>
+</head>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
